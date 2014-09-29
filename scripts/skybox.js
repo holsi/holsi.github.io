@@ -1,5 +1,5 @@
 
-	var imagePrefix = "assets/media/img/skyBox/";
+	var imagePrefix = "assets/media/img/skybox/";
 	var directions  = ["xpos", "xneg", "ypos", "yneg", "zpos", "zneg"];
 	var imageSuffix = ".png";
 	var skyGeometry = new THREE.CubeGeometry( 900, 900, 900 ); 
