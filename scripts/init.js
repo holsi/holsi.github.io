@@ -51,12 +51,12 @@ camera.lookAt(new THREE.Vector3(0, 0, 0));
 
 // add spotlights
 var spotLight1 = new THREE.SpotLight(0xffffff);
-spotLight1.position.set(-30, 40, 50);
+spotLight1.position.set(-300, 400, 500);
 spotLight1.intensity = 1;
 dwelling.add(spotLight1);
 
 var spotLight2 = new THREE.SpotLight(0xffffff);
-spotLight2.position.set(30, -40, -50);
+spotLight2.position.set(300, -400, -500);
 spotLight2.intensity = 1;
 dwelling.add(spotLight2);
 
